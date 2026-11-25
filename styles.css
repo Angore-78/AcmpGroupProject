@@ -1,0 +1,113 @@
+/*{ margin:0;padding:0;box-sizing:border-box;}*/
+body{
+        background-image:url("FERD.png");
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+        min-height:100vh;
+        }
+
+.logo{
+  border-radius:25px;
+  display:flex;
+  padding:5px;
+  color:#010909;
+  font-size:12px;
+  text-align:left;
+  font-weight:bold;
+      }
+
+.img{
+      width:80px;
+      opacity:0.8;
+      height:auto;
+        }
+      
+.head{
+        color:azure;
+        max-width:1000px;
+        padding:25px 20px;
+        border-radius:30px;
+        margin:20px;
+        justify-content:center;
+        flex:wrap;
+        background:#1c9b3d;
+        margin:0 auto;
+        width:1000px;
+        text-align:center;
+      }
+      
+      
+nav{
+        margin:4px;
+        padding:0px 0px;
+        background-color:#e5ebe5;
+        display:flex;
+      }
+
+nav a{
+        margin-left:16px;
+        font-size:15px;
+        color:#171d01;
+        font-weight:bold;
+        justify-content:space-around;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+nav a:hover{
+  color:#16b867;
+  transform: translateY(-5px);
+        }
+      
+nav.topbar{
+        border-bottom:1px solid #3c4b02;
+        background:#e5ebe5;
+        display:flex;
+        margin:5px;
+        padding:15px;
+        margin:5px;
+        position:sticky;
+        
+        /* nav .wrap { display: flex; 
+        justify-content: space-between; align-items: center;
+         flex-wrap: wrap; gap: 10px; }*/
+      }
+
+.par{
+  text-align:center;
+  margin:15px;
+  font-size:25px;
+  color:#0b6f1b;
+  background:#e5ebe5;
+  font-weight:semi-bold;
+      }
+      
+div.image{
+        display:flex;
+        justify-content:center;
+        align-items:stretch;
+    }
+      
+.key{
+        color:azure;
+        font-size:20px;
+        text-align:center;
+        font-weight:bold;
+        background-color:#1c9b3d;
+        padding:10px;
+        border-radius:30px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+.key:hover{
+      transform: translateY(-5px);
+      /*box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);*/
+    }
+
+par{
+
+    }
+      
+p9{
+  font-size:15px;
+}
