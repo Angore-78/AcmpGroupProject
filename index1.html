@@ -17,8 +17,9 @@
         
          <nav>
         <div class=topbar>
+            
         <div>
-    <a href="">Home</a><a href="head.html">head</a><a href="https://www.egerton.ac.ke/programmes">Academic Programs</a><a href="https://research.egerton.ac.ke/">Research & Labs</a><a href="#faculty">Faculty</a><a href="https://www.egerton.ac.ke/our-contacts">Contacts</a>
+    <a href="home.html">Home</a><a href="programmes.html">Programs</a><a href="about.html">About</a><a href="#faculty">Faculty</a><a href="https://www.egerton.ac.ke/our-contacts">Contacts</a>
             </div>
 
         </div>
@@ -28,98 +29,36 @@
     <!-- Page Content --> 
     <main>
     
-    <div class="head"  id="head">
+    <div class="head">
     <img class="img" src="images/egerlogo.png">
-    <div>Egerton University&amp;Department of Environmental Science</div>
+    <h1>Egerton University&amp;Department of Environmental Science</h1>
     </div>
     
-    <div class="key"><u>Shaping the Future of Technology</u></div>
+    <div class="key">Shaping the Future with Technology</div>
    
-      <section id="home">
-          <div class="par"></div>
+      <!--<section id="home">
+          <div class="par"></div>-->
             
         </section>
         
         <!-- Departments / programs -->
         <section class="grid-section">
-            <div class="key">Our Programs</div>
-            <a href="#programs" class="btn">Explore programs</a>
-                
+            <div class="key">Our Programs</div>                
                 <!-- Add remaining program cards -->
         </div>
 
         <!-- Notice Board / News -->
         <section id="news">
             <div class="key">Department Announcements</div>
-            <ul id="notice-list">
-                <!-- Use JavaScript later to populate this list dynamically -->
-                <li><strong>Nov 1:</strong> Semester schedules updated.</li>
-                <!-- Add more news items -->
-            </ul>
         </section>
         
         <!--about us-->
         <div class="key">About us</div>
-        <div class="about">
+        <div class="par">
         <p>Our mission:To generate knowledge and offer exemplary education and training in Environmental Science to society for national and global development</p>
         <p>Our vision:A leading department in building a socially and environmentally just world in which human communities and ecological systems thrive in harmony.</p>
         </div>
         </section>
        
-
-    
-    <p3>Event Manager</p3>
-
-     <!-- Text input and Add button -->
-     <input type="text" id="taskInput" 
-     placeholder="Add Event...">
-     <button id="addButton">Add</button>
-
-        <!-- Empty list -->
-        <ul id="taskList"></ul>
-        <script>
-
-const taskInput = 
-document.getElementById('taskInput');
-const addButton = 
-document.getElementById('addButton');
-const taskList = 
-document.getElementById('taskList');
-
-   // Feature 1: Add a task to the list
-   addButton.addEventListener('click', function() {
-   const taskText = taskInput.value.trim();
-   if (taskText !== "") {
-   const listItem = document.createElement('li');
-   listItem.textContent = taskText;
-   taskList.appendChild(listItem);
-   taskInput.value = "";
-   }
-   });
-
-     // Feature 2: Remove a task 
-     taskList.addEventListener('click', function(event) 
-     {
-     if (event.target.tagName === "LI") {
-     taskList.removeChild(event.target);
-     }
-     });
-</script>
-</main>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="contact-info">
-                <!-- Add physical location  PST halls, Engineering block -->
-            </div>
-            <div class="quick-links">
-                <!-- Add links to student portal, library -->
-            </div>
-        </div>
-        <p4>&copy; 2026 Egerton University Engineering Department.</p4>
-    </footer>
-
-    <script src="js/script.js"></script>
 </body>
 </html>

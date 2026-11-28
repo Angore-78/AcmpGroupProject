@@ -1,6 +1,6 @@
 /*{ margin:0;padding:0;box-sizing:border-box;}*/
 body{
-        background-image:url("FERD.png");
+        background-image:url("images/FERD.png");
         background-size:cover;
         background-position:center;
         background-repeat:no-repeat;
@@ -16,10 +16,15 @@ body{
   text-align:left;
   font-weight:bold;
       }
+.heading{
+        font-size:large;
+        font-weight:bold;
+        color:antiquewhite;
+
+      }
 
 .img{
-      width:80px;
-      opacity:0.8;
+      width:90px;
       height:auto;
         }
       
@@ -63,6 +68,7 @@ nav.topbar{
         border-bottom:1px solid #3c4b02;
         background:#e5ebe5;
         display:flex;
+        flex-wrap: wrap;
         margin:5px;
         padding:15px;
         margin:5px;
@@ -75,10 +81,12 @@ nav.topbar{
 
 .par{
   text-align:center;
+  border-radius:25px;
+  padding:10px;
   margin:15px;
-  font-size:25px;
-  color:#0b6f1b;
-  background:#e5ebe5;
+  font-size:20px;
+  color:azure;
+  background:#0b6f1b;
   font-weight:semi-bold;
       }
       
@@ -91,6 +99,7 @@ div.image{
 .key{
         color:azure;
         font-size:20px;
+        margin:10px;
         text-align:center;
         font-weight:bold;
         background-color:#1c9b3d;
@@ -101,12 +110,10 @@ div.image{
 
 .key:hover{
       transform: translateY(-5px);
-      /*box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);*/
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
     }
 
-par{
 
-    }
       
 p9{
   font-size:15px;
